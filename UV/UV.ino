@@ -7,12 +7,10 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop()
-{
+void loop() {
   sensorValue = 0;
   sum = 0;
-  for (int i = 0 ; i < 1024 ; i++ )
-  {
+  for (int i = 0 ; i < 1024 ; i++ ) {
     sensorValue = analogRead(A0);
     sum = sensorValue + sum;
     delay(2);
