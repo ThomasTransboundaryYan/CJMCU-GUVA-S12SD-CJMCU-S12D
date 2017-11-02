@@ -1,3 +1,14 @@
+/*
+ * Sensor: CJMCU-GUVA-S12SD/CJMCU-S12D
+ * Arduino IDE version:1.6.9
+ * System: Windows10
+ * Code version: 1.0
+ * 
+ * Sensor     Arduino
+ * SIG    ->    A0
+ * GND    ->    GND
+ * VCC    ->    5V
+ */
 int sensorValue;
 long sum = 0;
 int vout = 0;
